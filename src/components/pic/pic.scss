@@ -1,0 +1,81 @@
+.pic-bar{
+    
+    display: flex;
+    justify-content: center;
+   // flex:0 0 90%;
+    flex-wrap: wrap;
+    .pic-image{
+        display: flex;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      justify-content: center;
+    }
+    .second{
+        font-size: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .pic-name{
+        font-size: larger;
+        font-weight: 600;
+        font-family: 'Cinzel Decorative', cursive;
+font-family: 'Nothing You Could Do', cursive;
+color: rgb(102, 76, 54);
+    }
+    .box{
+        margin: 5px 10px;
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: rgba(159, 205, 231, 0.747);
+        margin-top: 50px;
+        font-size: larger;
+        .box-city{
+        display: flex;
+        justify-content: center;
+        }
+        .social{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box-font{
+            font-size: 36px;
+        }
+        .icons{
+            height: 50px;
+            width: 50px;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+       
+       
+    }
+    .web-dev{
+        margin-top: 20px;
+        font-family: 'Caveat', cursive;
+        font-size: larger;
+        border: 1px solid black;
+        padding: 10px 20px;
+        border-radius: 19px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.contact-us{
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+}

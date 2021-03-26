@@ -1,0 +1,77 @@
+.skilljs-card{
+    height: 180px;
+    width: 90%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    .skilljs-card-div{
+        width: 30%;
+        margin-left: 2rem;
+    }
+    .skilljs-card-icon{
+        width: 50%;
+        height: 100%;
+    }
+    .skilljs-card-box{
+        padding-left: 1rem;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        .skilljs-card-head{
+            .skilljs-card-head-inside{
+              color:yellow;
+              font-size: 24px;
+              font-family: 'Courier New', Courier, monospace;
+              border-bottom: 2px solid white;
+            }
+        }
+        .skilljs-card-box-graph{
+            width: 100%;
+            .skilljs-card-graph-inside{
+                color:#2DA8D8FF;
+                font-size: 24px;
+            }
+            .skilljs-card-bar{
+                margin-top: 10px;
+                width: 60%;
+                height:20px;
+                background-color: #FCF6F5FF;
+               
+                border-radius:20px;
+                display: flex;
+                justify-content: flex-start;
+                .skilljs-card-bar-inside{
+                    display: flex;
+                    justify-content: center;
+                     width: 60%;
+                     height: 100%;
+                     background-color: #2BAE66FF;
+                     border-radius:20px;
+                }
+            }
+            .skilljs-card-bar-project{
+                margin-top: 20px;
+                width: 60%;
+                height:20px;
+                background-color: #FCF6F5FF;
+               
+                border-radius:20px;
+                display: flex;
+                justify-content: flex-start;
+                .skilljs-card-bar-project-inside{
+                    display: flex;
+                    justify-content: center;
+                     width: 70%;
+                     height: 100%;
+                     background: rgb(97,190,117);
+                     background: linear-gradient(90deg, rgba(97,190,117,1) 0%, rgba(16,138,77,1) 74%, rgba(0,112,13,1) 100%);
+                     border-radius:20px;
+                }
+            }
+        }
+   
+    }
+}

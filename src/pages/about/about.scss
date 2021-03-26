@@ -1,0 +1,85 @@
+.about-page{
+    margin: 1.8rem 1.5rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width:100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+   
+   .profile{
+       margin-top: 3rem;
+       display: flex;
+       width: 90%;
+       height: 100%;
+       .profile-pic{
+       width: 300px;
+       height: 300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    
+      background-color:transparent;
+     
+      overflow: hidden;
+      position: relative;
+       .profile-pic-pic{
+          height:inherit;
+          width: 170px;
+           padding: 40px 40px;
+           
+          
+       }
+       }
+       .profile-content{
+           width: 60%;
+           margin-left: 30px;
+           
+           .title{
+               
+               height: 20%;
+               
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-family: 'Caveat', cursive;
+               font-size: 28px;
+               border-bottom: 2px solid rgb(89, 186, 224);
+           }
+           .profile-content-text{
+               margin-top: 2rem;
+               font-size: 18px;
+            .profile-content-text-style{
+                font-family: 'Caveat', cursive;
+                color:#D9514EFF;
+                font-size: 28px;
+               }
+           }
+           
+       }
+       
+   }
+   .skill-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .skill{
+     font-size: 28px;
+     margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     font-family: 'Caveat', cursive;
+     border-bottom: 2px solid rgb(89, 186, 224);
+     width: 20%;
+ 
+ }
+}
+   .skill-scrollable{
+       margin-top: 4rem;
+   
+   
+   }
+  
+  
+}
