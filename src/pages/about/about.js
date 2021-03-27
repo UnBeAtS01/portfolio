@@ -8,6 +8,7 @@ import image from '../../assets/profilepic.jpg';
 import SkillCardNodejs from '../../components/skillCard/skillcardnodejs';
 import SkillCardFirebase from '../../components/skillCard/skillcardfirebase';
 import SkillCardRedux from '../../components/skillCard/skillcardredux';
+import SkillCardDsa from '../../components/skillCard/skillcardDsa';
 class AboutPage extends React.Component {
 
     render() {
@@ -28,19 +29,12 @@ class AboutPage extends React.Component {
                 </div>
                 <div className='skill-div'> <div className='skill'>Expertise</div></div>
                 <div className='skill-scrollable'>
+                    <SkillCardDsa />
                     <SkillCardCss />
-
                     <SkillCard />
-
                     <SkillCardRedux />
-
-
-
                     <SkillCardJs />
-
-
                     <SkillCardNodejs />
-
                     <SkillCardFirebase />
 
                 </div>

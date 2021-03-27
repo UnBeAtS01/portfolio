@@ -1,0 +1,89 @@
+.projectcard{
+    height: 260px;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background: rgba( 78, 155, 191, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: space-between;
+    .projectcard-box{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        .projectcard-box-image{
+            height:100% ;
+            width: 100%;
+            background-size: cover;
+           
+        }
+        .see-live{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#2A2B2DFF;
+            z-index: -1;
+            a{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 24px;
+                color:white;
+                text-decoration: none;
+            }
+        }
+        &:hover{
+            cursor: pointer;
+            .projectcard-box-image{
+                opacity: 0.7;
+            }
+            .see-live{
+                z-index: 2;
+                opacity: .6;
+            }
+        }
+    }
+    .projectcard-content{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Caveat', cursive;
+        padding-left: 2rem;
+        margin-top: 1rem;
+        .projectcard-content-header{
+            font-size: 34px;
+            color:black;
+            margin-bottom: 2rem;
+            .project-content-header-inside{
+                border-bottom:2px solid skyblue;
+            }
+           
+        }
+        .projectcard-content-useof{
+            font-size: 28px;
+            color: black;
+            font-family: 'Caveat', cursive;
+        }
+        .projectcard-content-list{
+            color: #2DA8D8FF;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 24px;
+            font-family: 'Caveat', cursive;
+        }
+        .projectcard-button{
+            display: flex;
+            justify-content:space-around;
+            margin-top: 8px;
+        }
+    }
+    
+}
