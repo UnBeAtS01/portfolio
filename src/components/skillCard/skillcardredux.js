@@ -5,7 +5,7 @@ class SkillCardRedux extends React.Component {
     render() {
         return (
             <div className='skillredux-card'>
-                <div className='skillredux-card-div'><img className='skillredux-card-icon' src={redux} /></div>
+                <div className='skillredux-card-div'><img className='skillredux-card-icon' src={redux} alt='profile' /></div>
                 <div className='skillredux-card-box'>
                     <div className='skillredux-card-head'><div className='skillredux-card-head-inside'>Redux</div></div>
                     <div className='skillredux-card-box-graph'>

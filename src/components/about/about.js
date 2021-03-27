@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
 import './about.scss';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import AboutPage from '../../pages/about/about';
 import ProjectPage from '../../pages/project/project';
 class About extends React.Component {

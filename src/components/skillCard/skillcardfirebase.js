@@ -5,7 +5,7 @@ class SkillCardFirebase extends React.Component {
     render() {
         return (
             <div className='skillfb-card'>
-                <div className='skillfb-card-div'><img className='skillfb-card-icon' src={fb} /></div>
+                <div className='skillfb-card-div'><img className='skillfb-card-icon' src={fb} alt='profile' /></div>
                 <div className='skillfb-card-box'>
                     <div className='skillfb-card-head'><div className='skillfb-card-head-inside'>React</div></div>
                     <div className='skillfb-card-box-graph'>

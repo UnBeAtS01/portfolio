@@ -5,7 +5,7 @@ class SkillCardCss extends React.Component {
     render() {
         return (
             <div className='skillcss-card'>
-                <div className='skillcss-card-div'><img className='skillcss-card-icon' src={sass} /></div>
+                <div className='skillcss-card-div'><img className='skillcss-card-icon' src={sass} alt='profile' /></div>
                 <div className='skillcss-card-box'>
                     <div className='skillcss-card-head'><div className='skillcss-card-head-inside'>Sass</div></div>
                     <div className='skillcss-card-box-graph'>

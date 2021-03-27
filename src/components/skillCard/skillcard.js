@@ -5,7 +5,7 @@ class SkillCard extends React.Component {
     render() {
         return (
             <div className='skill-card'>
-                <div className='skill-card-div'><img className='skill-card-icon' src={react} /></div>
+                <div className='skill-card-div'><img className='skill-card-icon' src={react} alt='profile' /></div>
                 <div className='skill-card-box'>
                     <div className='skill-card-head'><div className='skill-card-head-inside'>React</div></div>
                     <div className='skill-card-box-graph'>

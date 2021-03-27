@@ -5,7 +5,7 @@ class SkillCardDsa extends React.Component {
     render() {
         return (
             <div className='skilldsa-card'>
-                <div className='skilldsa-card-div'><img className='skilldsa-card-icon' src={algo} /></div>
+                <div className='skilldsa-card-div'><img className='skilldsa-card-icon' src={algo} alt='profile' /></div>
                 <div className='skilldsa-card-box'>
                     <div className='skilldsa-card-head'><div className='skilldsa-card-head-inside'>DataStructure and Algo/c/c++/oops</div></div>
                     <div className='skilldsa-card-box-graph'>

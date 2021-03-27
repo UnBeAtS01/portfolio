@@ -1,12 +1,12 @@
 import React from 'react';
 import './skillcardJs.scss';
 import js from '../../assets/javascript.svg';
-import react from '../../assets/logo.svg';
+
 class SkillCardJs extends React.Component {
     render() {
         return (
             <div className='skilljs-card'>
-                <div className='skilljs-card-div'><img className='skilljs-card-icon' src={js} /></div>
+                <div className='skilljs-card-div'><img className='skilljs-card-icon' src={js} alt='profile' /></div>
                 <div className='skilljs-card-box'>
                     <div className='skilljs-card-head'><div className='skilljs-card-head-inside'>Javascript/Es6</div></div>
                     <div className='skilljs-card-box-graph'>
