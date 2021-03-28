@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
 import './about.scss';
-import { Route } from 'react-router-dom';
+import { Route, Router } from 'react-router-dom';
 import AboutPage from '../../pages/about/about';
 import ProjectPage from '../../pages/project/project';
+import SomethingPage from '../../pages/something/something';
 class About extends React.Component {
     state = {
         present: 'About'
@@ -18,7 +19,7 @@ class About extends React.Component {
 
                 <Route exact path='/' component={AboutPage} />
                 <Route exact path='/projects' component={ProjectPage} />
-
+                <Route exact path='/something' component={SomethingPage} />
 
 
             </div>
