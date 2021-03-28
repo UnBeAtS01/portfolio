@@ -15,7 +15,7 @@ class ProjectCard extends React.Component {
                     <div className='projectcard-content-header'><span className='project-content-header-inside'>E-commerce site(self project)</span></div>
                     <div className='projectcard-content-useof'> skill used:</div>
                     <div className='projectcard-content-list'>
-                        -React -Html -Sss -Sass -Js  -Redux -Firebase -StripeApi
+                        -React -Html -Css -Sass -Js  -Redux -Firebase -StripeApi
                 </div>
                     <div className='projectcard-button'><a href='https://eloquent-darwin-84e54c.netlify.app'><CustomButton>see live</CustomButton></a><a href='https://github.com/unbeat01/e-commerce'><CustomButton resume>see code</CustomButton></a></div>
 

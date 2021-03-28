@@ -23,8 +23,8 @@ class Pic extends React.Component {
                         <div>JADAVPUR UNIVERSITY</div>
                         <div className='box-city'><LocationOnIcon /> KOLKATA </div>
                         <div className='social'>
-                            <div className='icons'><GitHubIcon className='box-font' /></div>
-                            <div className='icons'><LinkedInIcon className='box-font' /></div>
+                            <a href='https://github.com/unbeat01' className='icons'><GitHubIcon className='box-font' /></a>
+                            <a href='https://in.linkedin.com/in/ankit-sinha-5318721ba' className='icons'><LinkedInIcon className='box-font' /></a>
                         </div>
                     </div>
                 </div>

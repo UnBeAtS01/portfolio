@@ -15,7 +15,7 @@ class ProjectCardfaceDetect extends React.Component {
                     <div className='projectcard-content-header'><span className='project-content-header-inside'>faceDetection(udemy project)</span></div>
                     <div className='projectcard-content-useof'> skills used:</div>
                     <div className='projectcard-content-list'>
-                        -React -Html -Sss -Sass -Js  -express -clarifiApi -nodejs
+                        -React -Html -Css -Sass -Js  -express -clarifiApi -nodejs
                 </div>
                     <div className='projectcard-button'><a href='https://intelligents.herokuapp.com/'><CustomButton>see live</CustomButton></a><a href='https://github.com/unbeat01/intelligent-frontend'><CustomButton resume>see code</CustomButton></a></div>
 
