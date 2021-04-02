@@ -4,6 +4,7 @@ import ProjectCardfaceDetect from '../../components/projectcard/projectcardfaced
 import ProjectCardToDo from '../../components/projectcard/projectcardtodo';
 import ProjectCardRobo from '../../components/projectcard/projectcardRobo';
 import './project.scss';
+import ProjectCardChat from '../../components/projectcard/projectcardchat';
 
 class ProjectPage extends React.Component {
 
@@ -17,6 +18,7 @@ class ProjectPage extends React.Component {
                 </div>
                 <div className='major'><span>Mini Projects</span></div>
                 <div>
+                    <ProjectCardChat />
                     <ProjectCardToDo />
                     <ProjectCardRobo />
                 </div>
