@@ -58,7 +58,8 @@
     position: absolute;
     z-index: -1;
     display: block;
-    background-color: rgb(90, 238, 231);
+    background: rgb(114,223,226);
+background: linear-gradient(90deg, rgba(114,223,226,1) 0%, rgba(35,200,201,1) 25%, rgba(59,99,157,1) 100%);
     color: white;
 
   }
