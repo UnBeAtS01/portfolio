@@ -46,7 +46,7 @@
                 .skillnodejs-card-bar-inside{
                     display: flex;
                     justify-content: center;
-                    animation: strength-node 10s 1s forwards infinite ease-in;
+                    animation: strength-node 10s 1s forwards 3 ease-in;
                      height: 100%;
                      background-color: #2BAE66FF;
                      border-radius:20px;
@@ -64,7 +64,7 @@
                 .skillnodejs-card-bar-project-inside{
                     display: flex;
                     justify-content: center;
-                    animation: project-node 10s 1s forwards infinite ease-in;
+                    animation: project-node 10s 1s forwards 3 ease-in;
                      height: 100%;
                      background: rgb(97,190,117);
                      background: linear-gradient(90deg, rgba(97,190,117,1) 0%, rgba(16,138,77,1) 74%, rgba(0,112,13,1) 100%);

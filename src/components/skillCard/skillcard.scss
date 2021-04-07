@@ -42,7 +42,7 @@
                 .skill-card-bar-inside{
                     display: flex;
                     justify-content: center;
-                     animation: strength-react 10s 1s forwards infinite ease-out;
+                     animation: strength-react 10s 1s forwards 3 ease-out;
                      height: 100%;
                      background-color: #2BAE66FF;
                      border-radius:20px;
@@ -61,7 +61,7 @@
                 .skill-card-bar-project-inside{
                     display: flex;
                     justify-content: center;
-                     animation: project-react 10s 1s forwards infinite ease-out;
+                     animation: project-react 10s 1s forwards 3 ease-out;
                      height: 100%;
                      background: rgb(97,190,117);
                      background: linear-gradient(90deg, rgba(97,190,117,1) 0%, rgba(16,138,77,1) 74%, rgba(0,112,13,1) 100%);

@@ -4,7 +4,7 @@ import SkillCard from '../../components/skillCard/skillcard';
 import SkillCardCss from '../../components/skillCard/skillcardcss';
 import SkillCardJs from '../../components/skillCard/skillcardJs';
 
-import image from '../../assets/profilepic.jpg';
+import image from '../../assets/profilepic.png';
 import SkillCardNodejs from '../../components/skillCard/skillcardnodejs';
 import SkillCardFirebase from '../../components/skillCard/skillcardfirebase';
 import SkillCardRedux from '../../components/skillCard/skillcardredux';
@@ -16,7 +16,10 @@ class AboutPage extends React.Component {
             <div className='about-page'>
 
                 <div className='profile'>
-                    <div className='profile-pic' ><img className='profile-pic-pic' src={image} alt='profile pic' /></div>
+                    <div className='profile-pic' ><img className='profile-pic-pic' src={image} alt='profile pic' />
+                        <div className='backgroundimg'></div>
+                        <div className='backgroundimg2'></div>
+                    </div>
                     <div className='profile-content'>
                         <div className='title'>Myself</div>
                         <div className='profile-content-text'>
