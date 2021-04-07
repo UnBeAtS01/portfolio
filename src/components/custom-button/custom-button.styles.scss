@@ -1,6 +1,5 @@
 .custom-button {
     min-width: 165px;
-    width: auto;
     height: 50px;
     letter-spacing: 0.5px;
     line-height: 50px;
@@ -17,7 +16,7 @@
     justify-content: center;
   
     &:hover {
-      background-color: white;
+      background:none;
       color: black;
       border: 1px solid black;
     }
@@ -33,23 +32,47 @@
     line-height: 50px;
     padding: 0 35px 0 35px;
     font-size: 15px;
-    background-color: rgb(58, 126, 158);
-    color: white;
+    background:none;
+    color:rgb(90, 238, 231);
     text-transform: uppercase;
     font-family: 'Open Sans Condensed';
     font-weight: bolder;
-    border: none;
-    cursor: pointer;
-    display: flex;
     justify-content: center;
-  
-    &:hover {
-      border: 1px solid black;
-      background-color: rgb(58, 126, 158);
+    position: relative;
+    border: 1px solid rgb(90, 238, 231);
+    overflow: hidden;
+    &:hover{
       color: white;
-      
+      transition: 0.5s;
     }
     
 
     
+  }
+  .resume::before{
+    content:'';
+    left: -40px;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    background-color: rgb(90, 238, 231);
+    color: white;
+
+  }
+  .resume:hover::before{
+    animation: res 1s forwards;
+    border-radius: 0 30px 30px 0;
+    
+  }
+
+  @keyframes res{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 200%;
+    }
   }

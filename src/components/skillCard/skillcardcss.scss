@@ -35,14 +35,14 @@
                 width: 60%;
                 height:20px;
                 background-color: #FCF6F5FF;
-               
+                overflow: hidden;
                 border-radius:20px;
                 display: flex;
                 justify-content: flex-start;
                 .skillcss-card-bar-inside{
                     display: flex;
                     justify-content: center;
-                     width: 70%;
+                    animation: strength-scss 10s 1s forwards infinite ease-in-out;
                      height: 100%;
                      background-color: #2BAE66FF;
                      border-radius:20px;
@@ -53,14 +53,14 @@
                 width: 60%;
                 height:20px;
                 background-color: #FCF6F5FF;
-               
+                overflow: hidden;
                 border-radius:20px;
                 display: flex;
                 justify-content: flex-start;
                 .skillcss-card-bar-project-inside{
                     display: flex;
                     justify-content: center;
-                     width: 80%;
+                    animation: project-scss 10s 1s forwards infinite ease-in-out;
                      height: 100%;
                      background: rgb(97,190,117);
                      background: linear-gradient(90deg, rgba(97,190,117,1) 0%, rgba(16,138,77,1) 74%, rgba(0,112,13,1) 100%);
@@ -69,5 +69,22 @@
             }
         }
    
+    }
+}
+
+@keyframes strength-scss{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes project-scss{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
     }
 }
