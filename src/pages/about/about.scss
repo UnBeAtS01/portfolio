@@ -14,13 +14,13 @@
        width: 90%;
        height: 40%;
        .profile-pic{
-       width: 400px;
+       width: 500px;
        height: 400px;
        display: flex;
        justify-content: center;
        align-items: center;
     position: relative;
-      background-color:transparent;
+      
      
       overflow: hidden;
       .backgroundimg{
@@ -31,17 +31,17 @@
           position: absolute;
          
           z-index: 3;
-          border-radius: 20% 30% 25% 20%;
-          transform: rotate(20deg);
+          border-radius: 20% 20% 20% 50%;
+          transform: rotate(-20deg);
       }
       .backgroundimg2{
         width: 300px;
-        height: 350px;
+        height: 345px;
         background: rgb(97,190,156);
         background: linear-gradient(158deg, rgba(97,190,156,1) 1%, rgba(16,119,138,1) 56%, rgba(0,112,62,1) 100%);
         position: absolute;
         z-index: 4;
-        border-radius: 60% 40% 35% 50%;
+        border-radius: 60% 40% 55% 50%;
         transform: rotate(40deg);
     }
        .profile-pic-pic{
