@@ -2,8 +2,9 @@
   width: 0;
 }
 body{
-  background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80');
+ background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80');
   background-size: cover;
+  background-color: black;
 }
 .App{
 
@@ -39,7 +40,7 @@ font-family: 'Open Sans Condensed', sans-serif;
  /* background: #36D1DC;  
 background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
 background: linear-gradient(to right, #5B86E5, #36D1DC);*/
-background-color:#2DA8D8FF;
+
 overflow: hidden;
 scrollbar-width: none;
 
@@ -64,4 +65,297 @@ a{
     }
   }
  
+}
+.intro-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  opacity: 1;
+  animation: displayoff 1s 10s forwards;
+ 
+}
+.intro{
+  color: aqua;
+  fill: transparent;
+  animation: fills 5s 3.5s forwards;
+  
+}
+ .intro path:nth-child(1){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim 3s 1s forwards;
+}
+.intro path:nth-child(2){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim2 3s 1.3s forwards;
+}
+.intro path:nth-child(3){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim3 3s 1.4s forwards;
+}
+.intro path:nth-child(4){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim4 3s 1.8s forwards;
+}
+.intro path:nth-child(5){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim5 3s 3s forwards;
+}
+.intro path:nth-child(6){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim6 3s 1.3s forwards;
+}
+.intro path:nth-child(7){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim7 3s 1.4s forwards;
+}
+.intro path:nth-child(8){
+  stroke-dasharray: 350px;
+  stroke-dashoffset:350px;
+  animation: word-anim8 3s 1s forwards;
+}
+ .intro path:nth-child(9){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim9 3s 1s forwards;
+}
+.intro path:nth-child(10){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim10 3s 1s forwards;
+}
+.intro path:nth-child(11){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim11 3s 1s forwards;
+}
+.intro path:nth-child(12){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim12 3s 1.5s forwards;
+  animation: displayname  5s 4s forwards;
+}
+.intro path:nth-child(13){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim13 3s 1.8s forwards;
+}
+.intro path:nth-child(14){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim14 3s 1.3s forwards;
+}
+.intro path:nth-child(15){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+}
+.intro path:nth-child(16){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+  
+
+}
+.intro path:nth-child(17){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+  animation: displayname  5s 4s forwards;
+
+}
+.intro path:nth-child(18){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+}
+.intro path:nth-child(19){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+}
+.intro path:nth-child(20){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+}
+.intro path:nth-child(21){
+  stroke-dasharray: 450px;
+  stroke-dashoffset:450px;
+  animation: word-anim15 3s 1.4s forwards;
+  
+
+}
+
+
+@keyframes word-anim{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim2{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim3{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim4{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim5{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim6{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim7{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim8{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim9{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim10{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim11{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim12{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim13{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim14{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim15{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim16{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+ @keyframes word-anim17{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim18{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim19{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim20{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim21{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes word-anim22{
+  to{
+    stroke-dashoffset:0px;
+  
+  }
+}
+@keyframes fills{
+  to{
+    fill: #63A4FF;
+  }
+}
+@keyframes displayoff{
+  to{
+    z-index: -10;
+    opacity: 0;
+    color: white;
+  }
+}
+@keyframes displayname{
+  to{
+    fill: #FCF6F5FF;
+  }
+}
+.myself-img-div{
+  
+}
+.myself-img{
+  width: 500px;
+  height: 500px;
+  display: block;
 }
