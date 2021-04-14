@@ -31,7 +31,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
   }
 }
-
+.enter-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+}
 body{
   font-family: 'Cormorant Garamond', serif;
 font-family: 'Open Sans', sans-serif;
@@ -79,16 +84,21 @@ a{
   padding-right: 5%;
   padding-left: 5%;
   align-items: center;
-  background-color:black;
+  background: conic-gradient(from 45deg at 30% 120%, #ffffff, #f8f8f8, #e6e6e6, #cbcbcb, #ababab, #888888, #666666, #474747, #2d2d2d, #191919, #080808, #000000);
   opacity: 1;
   animation: displayoff 1s 10s forwards;
  
 }
+.intro-name{
+  width: 40%;
+  
+}
 .intro{
-  color: aqua;
+  color: rgb(0, 116, 194);
   fill: transparent;
   animation: fills 5s 3.5s forwards;
   padding-right: 5%;
+  width: 100%;
   
 }
  .intro path:nth-child(1){
@@ -150,7 +160,7 @@ a{
   stroke-dasharray: 450px;
   stroke-dashoffset:450px;
   animation: word-anim12 3s 1.5s forwards;
-  animation: displayname  5s 4s forwards;
+  
 }
 .intro path:nth-child(13){
   stroke-dasharray: 450px;
@@ -178,7 +188,7 @@ a{
   stroke-dasharray: 450px;
   stroke-dashoffset:450px;
   animation: word-anim15 3s 1.4s forwards;
-  animation: displayname  5s 4s forwards;
+  
 
 }
 .intro path:nth-child(18){
@@ -339,31 +349,100 @@ a{
 }
 @keyframes fills{
   to{
-    fill: #63A4FF;
+    fill: #006cb4;
   }
 }
-@keyframes displayoff{
-  to{
-    z-index: -10;
-    opacity: 0;
-    color: white;
-  }
-}
-@keyframes displayname{
-  to{
-    fill: #FCF6F5FF;
-  }
-}
+// @keyframes displayoff{
+//   to{
+//     z-index: -10;
+//     opacity: 0;
+//     color: white;
+//   }
+// }
+
 .myself-img-div{
-  width: 60%;
+  width: 40%;
   height: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
-  transform: translate(10%,10%) rotate(-10deg);
+  transform: translate(10%,10%) rotate(0deg);
 }
 .myself-img{
   
   width: 60%;
   display: block;
+}
+
+#planet{
+  animation: rotatepla 3s linear infinite alternate;
+  transform-origin: center;
+transform-box: fill-box;
+}
+#ring{
+  animation: ring 8s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#location{
+  animation: location 1s ease-in infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#mobile{
+  animation: mobile 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#girl{
+  animation: girl 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+ 
+@keyframes rotatepla{
+  from{
+      transform: rotateZ(0deg);
+    
+  }
+  to{
+      transform: rotateZ(15deg);
+  }
+}
+@keyframes ring{
+  from{
+      transform: rotateY(0deg);
+    
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+}
+@keyframes location{
+  from{
+      transform: translateY(0);
+    
+  }
+  to{
+      transform: translateY(10px);
+  }
+}
+
+@keyframes mobile{
+  from{
+      transform: rotateY(0deg) translateY(0px);
+      
+  }
+  to{
+      transform: rotateY(20deg) translateY(-10px);
+  }
+}
+@keyframes girl{
+  from{
+      transform: rotateY(0deg) translateY(0px);
+      
+  }
+  to{
+      transform: rotateY(10deg) translateY(-10px);
+  }
 }
