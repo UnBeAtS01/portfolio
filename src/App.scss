@@ -86,7 +86,7 @@ a{
   align-items: center;
   background: conic-gradient(from 45deg at 30% 120%, #ffffff, #f8f8f8, #e6e6e6, #cbcbcb, #ababab, #888888, #666666, #474747, #2d2d2d, #191919, #080808, #000000);
   opacity: 1;
-  animation: displayoff 1s 10s forwards;
+  
  
 }
 .intro-name{
@@ -352,13 +352,7 @@ a{
     fill: #006cb4;
   }
 }
-// @keyframes displayoff{
-//   to{
-//     z-index: -10;
-//     opacity: 0;
-//     color: white;
-//   }
-// }
+
 
 .myself-img-div{
   width: 40%;
