@@ -24,7 +24,7 @@ class AboutPage extends React.Component {
                         <div className='title'>Myself</div>
                         <div className='profile-content-text'>
                             <div className='profile-content-text-style'>Hi,My name is Ankit Sinha</div>
-                            I'm student of jadavpur university under B.E. purshing web-dev and have a good command on DSA along with problem solving skill.
+                            I'm student of jadavpur university under B.E. pursuing web-dev and have a good command on DSA along with problem solving skill.
                             I'm energetic and sporty person, always eager to learn new skill.I'm optimistic one,just trying to live each day at it best.
                         </div>
                     </div>
