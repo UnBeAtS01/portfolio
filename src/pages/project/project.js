@@ -5,7 +5,7 @@ import ProjectCardToDo from '../../components/projectcard/projectcardtodo';
 import ProjectCardRobo from '../../components/projectcard/projectcardRobo';
 import './project.scss';
 import ProjectCardChat from '../../components/projectcard/projectcardchat';
-
+import ProjectCardWth from '../../components/projectcard/wheatherapp'
 class ProjectPage extends React.Component {
 
     render() {
@@ -21,6 +21,7 @@ class ProjectPage extends React.Component {
                     <ProjectCardChat />
                     <ProjectCardToDo />
                     <ProjectCardRobo />
+                    <ProjectCardWth />
                 </div>
             </div>
         )
