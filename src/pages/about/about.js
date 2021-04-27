@@ -30,16 +30,17 @@ class AboutPage extends React.Component {
                     </div>
 
                 </div>
-                <div className='skill-div'> <div className='skill'>Expertise</div></div>
-                <div className='skill-scrollable'>
-                    <SkillCardDsa />
-                    <SkillCardCss />
-                    <SkillCard />
-                    <SkillCardRedux />
-                    <SkillCardJs />
-                    <SkillCardNodejs />
-                    <SkillCardFirebase />
+                <div className='skill-div'><div className='sk'> <div className='skill'>Expertise</div></div>
+                    <div className='skill-scrollable'>
+                        <SkillCardDsa />
+                        <SkillCardCss />
+                        <SkillCard />
+                        <SkillCardRedux />
+                        <SkillCardJs />
+                        <SkillCardNodejs />
+                        <SkillCardFirebase />
 
+                    </div>
                 </div>
 
             </div>

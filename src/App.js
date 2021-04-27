@@ -19,6 +19,13 @@ class App extends React.Component {
     return (
       <div className="App">
         {  !this.state.display ? (<div className='intro-div'>
+          <section class="wrapper">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+
+          </section>
+
           <div className='myself-img-div'>
             <svg width="983" height="764" viewBox="0 0 983 764" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="undraw_Location_search_re_ttoj 1" clip-path="url(#clip0)">
@@ -129,7 +136,7 @@ class App extends React.Component {
           </div>
 
         </div>
-          )
+        )
 
         }
       </div>
