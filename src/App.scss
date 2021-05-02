@@ -1,6 +1,4 @@
-::-webkit-scrollbar{
-  width: 0;
-}
+
 body{
  background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80');
   background-size: cover;
@@ -13,8 +11,7 @@ body{
   background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
   background: linear-gradient(to right, #5B86E5, #36D1DC);*/
   
-  overflow: hidden;
-  scrollbar-width: none;
+ 
   
 }
 .App{
@@ -22,10 +19,11 @@ body{
   .main{
     display: flex;
     padding: 1% 15%;
-    height: 80vh;
+    
     
     .side-bar{
       flex: 1 1 0;
+      
       border-radius: 2%;
       background: rgba( 255, 255, 255, 0.15 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -39,6 +37,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
       margin-left: 20px;
       border-radius: 2%;
        background-color: white;
+       
     }
   }
 }
