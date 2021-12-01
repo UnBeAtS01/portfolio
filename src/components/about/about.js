@@ -1,29 +1,54 @@
-import React from 'react';
-import Navbar from '../navbar/navbar';
-import './about.scss';
-import { Route } from 'react-router-dom';
-import AboutPage from '../../pages/about/about';
-import ProjectPage from '../../pages/project/project';
-import SomethingPage from '../../pages/something/something';
-class About extends React.Component {
-    state = {
-        present: 'About'
-    }
-    change = (data) => {
-        this.setState({ present: data });
-    }
-    render() {
-        return (
-            <div className='about'>
-                <Navbar change={this.change} present={this.state.present} />
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Particle from "../Particle";
+import Github from "./Github";
+import Techstack from "./Techstack";
+import Aboutcard from "./AboutCard";
+import laptopImg from "../../Assets/about.png";
+import Toolstack from "./Toolstack";
 
-                <Route exact path='/' component={AboutPage} />
-                <Route exact path='/projects' component={ProjectPage} />
-                <Route exact path='/something' component={SomethingPage} />
+function About() {
+  return (
+    <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Know Who <strong className="purple">I'M</strong>
+            </h1>
+            <Aboutcard />
+          </Col>
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+        </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
 
+        <Techstack />
 
-            </div>
-        )
-    }
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
+
+        <Github />
+      </Container>
+    </Container>
+  );
 }
+
 export default About;
